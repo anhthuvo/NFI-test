@@ -23,4 +23,11 @@ a {
     color: white;
     background: black;
   }
+
+
+button {
+  height: 40px;
+  min-width: 100px;
+  margin: 50px 0px;
+}
 }
