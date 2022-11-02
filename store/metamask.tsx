@@ -62,11 +62,6 @@ const MetamaskStore = ({ children }: { children?: ReactNode }) => {
           payload: accounts[0],
         });
       } catch (ex) {
-        console.log("Request to wallet is rejected");
-        dispatch({
-          type: "setAddress",
-          payload: "",
-        });
       }
     }
   };
